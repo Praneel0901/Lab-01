@@ -1,0 +1,13 @@
+//38
+#include <stdio.h>
+int main() {
+    int N,i=1;
+    printf("Enter the N value: ");
+    scanf("%d",&N);
+    while(i*i<=N){
+        printf("%d ",i*i);
+        i++;
+    }
+    
+    return 0;
+}
